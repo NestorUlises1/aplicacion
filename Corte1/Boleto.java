@@ -98,7 +98,7 @@ public class Boleto {
             this.precio=950;
         }
         else if(this.tipoViaje==2){
-            this.precio=950;
+            this.precio=950*80/100+950;
         }
         return this.precio;
     }  
